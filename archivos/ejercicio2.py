@@ -7,4 +7,3 @@ with open("salida.csv", 'w', newline='') as csvfile:
     escritor.writerow(encabezado)  # Escribe la fila de encabezados
     escritor.writerow(carro_1)
     escritor.writerow(carro_2)
-print(carro_1)
